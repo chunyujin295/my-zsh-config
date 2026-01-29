@@ -28,7 +28,7 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias ff='fastfetch -c $HOME/.config/fastfetch/config-pokemon.jsonc --stat'
-leval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2026-01-26 11:38:53
 export PATH="$PATH:/home/yj/.local/bin"
