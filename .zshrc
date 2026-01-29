@@ -28,10 +28,11 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias ff='fastfetch -c $HOME/.config/fastfetch/config-pokemon.jsonc --stat'
+alias tt='tty-clock -s -c -x -C 2 -B -n'
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Created by `pipx` on 2026-01-26 11:38:53
 export PATH="$PATH:/home/yj/.local/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_complet1ion"
